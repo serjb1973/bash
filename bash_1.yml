@@ -1,0 +1,42 @@
+---
+- hosts: bash
+  become: true
+
+  tasks:
+  - name: update yum
+    yum: update_cache=yes
+
+  - name: install httpd
+    yum: name=httpd state=latest
+
+  - name: install wget
+    yum: name=wget state=latest
+
+  - name: install net-tools
+    yum: name=net-tools state=latest
+
+  - name: Copy file html
+    copy:
+      src: ./files/my.html
+      dest: /var/www/html/my.html
+
+  - name: Start service httpd
+    systemd:
+      name: httpd
+      state: started
+
+  - name: Copy file lock
+    copy:
+      src: ./files/myexec.lock
+      dest: /tmp/myexec.lock
+
+  - name: Copy file shell
+    copy:
+      src: ./files/go.sh
+      dest: /root/go.sh
+
+  - name: Crontab create job
+    cron:
+      name: Test job
+      minute: "0"
+      job: "/bin/flock -x -w 0 /tmp/myexec.lock ; /bin/bash /root/go.sh > /dev/null 2>&1"
