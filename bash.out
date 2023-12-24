@@ -1,0 +1,339 @@
+Script started on 2023-12-24 18:39:18+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="109" LINES="36"]
+[?2004h]0;serjb@serjb-VirtualBox: ~/work10[01;32mserjb@serjb-VirtualBox[00m:[01;34m~/work10[00m$ vagrant ssh
+[?2004lLast login: Sun Dec 24 15:29:57 2023 from 10.0.2.2
+]0;vagrant@bash:~[?1034h[vagrant@bash ~]$ sudo -i
+]0;root@bash:~[?1034h[root@bash ~]# mail
+Heirloom Mail version 12.5 7/5/10.  Type ? for help.
+"/var/spool/mail/root": 4 messages
+>   1 Mail Delivery System  Sun Dec 24 15:30  83/2882  "Undelivered Mail Returned to Sender"
+    2 Mail Delivery System  Sun Dec 24 15:30  84/2874  "Undelivered Mail Returned to Sender"
+    3 Mail Delivery System  Sun Dec 24 15:30 110/9882  "Undelivered Mail Returned to Sender"
+    4 Mail Delivery System  Sun Dec 24 15:30  83/2876  "Undelivered Mail Returned to Sender"
+& 1
+Message  1:
+From MAILER-DAEMON  Sun Dec 24 15:30:34 2023
+Return-Path: <>
+X-Original-To: root@bash.localdomain
+Delivered-To: root@bash.localdomain
+Date: Sun, 24 Dec 2023 15:30:34 +0000 (UTC)
+From: MAILER-DAEMON@bash.localdomain (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: root@bash.localdomain
+Auto-Submitted: auto-replied
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="CB8644064E26.1703431834/bash.localdomain"
+Status: RO
+
+Part 1:
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host bash.localdomain.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<test@bash.ru>: host emx.mail.ru[217.69.139.180] said: 550 Sorry, we do not
+    accept mail from hosts with dynamic IP or generic DNS PTR-records. Please
+    get a custom reverse  DNS name from your ISP for your host 94.19.240.111 or
+    contact abuse@corp.mail.ru in case of error (in reply to end of DATA
+    command)
+[7m--More--[27m[K
+Part 2:
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+
+Part 3:
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+From root@bash.localdomain Sun Dec 24 15:30:33 2023
+Return-Path: <root@bash.localdomain>
+Date: Sun, 24 Dec 2023 15:30:33 +0000
+To: test@bash.ru
+Subject: URL's statistic get more than 3 times from 24/Dec/2023:14:41:04
+ UTC to 24/Dec/2023:15:30:33 UTC
+User-Agent: Heirloom mailx 12.5 7/5/10
+Content-Type: text/plain; charset=us-ascii
+From: root@bash.localdomain (root)
+
+    COUNT    URL
+     25 /
+     20 /my.html
+& n
+Message  2:
+From MAILER-DAEMON  Sun Dec 24 15:30:34 2023
+Return-Path: <>
+X-Original-To: root@bash.localdomain
+Delivered-To: root@bash.localdomain
+Date: Sun, 24 Dec 2023 15:30:34 +0000 (UTC)
+From: MAILER-DAEMON@bash.localdomain (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: root@bash.localdomain
+Auto-Submitted: auto-replied
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="E1DC64064E24.1703431834/bash.localdomain"
+Status: RO
+
+Part 1:
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host bash.localdomain.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<test@bash.ru>: host emx.mail.ru[94.100.180.180] said: 550 Sorry, we do not
+    accept mail from hosts with dynamic IP or generic DNS PTR-records. Please
+    get a custom reverse  DNS name from your ISP for your host 94.19.240.111 or
+    contact abuse@corp.mail.ru in case of error (in reply to end of DATA
+    command)
+[7m--More--[27m[K
+Part 2:
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+
+Part 3:
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+From root@bash.localdomain Sun Dec 24 15:30:33 2023
+Return-Path: <root@bash.localdomain>
+Date: Sun, 24 Dec 2023 15:30:33 +0000
+To: test@bash.ru
+Subject: HTTP CODE statistic from 24/Dec/2023:14:41:04 UTC to
+ 24/Dec/2023:15:30:33 UTC
+User-Agent: Heirloom mailx 12.5 7/5/10
+Content-Type: text/plain; charset=us-ascii
+From: root@bash.localdomain (root)
+
+    COUNT    CODE
+     20 200
+     25 403
+      3 404
+& n
+Message  3:
+From MAILER-DAEMON  Sun Dec 24 15:30:34 2023
+Return-Path: <>
+X-Original-To: root@bash.localdomain
+Delivered-To: root@bash.localdomain
+Date: Sun, 24 Dec 2023 15:30:34 +0000 (UTC)
+From: MAILER-DAEMON@bash.localdomain (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: root@bash.localdomain
+Auto-Submitted: auto-replied
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="CE5ED4064E27.1703431834/bash.localdomain"
+Status: RO
+
+Part 1:
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host bash.localdomain.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<test@bash.ru>: host emx.mail.ru[217.69.139.180] said: 550 Sorry, we do not
+    accept mail from hosts with dynamic IP or generic DNS PTR-records. Please
+    get a custom reverse  DNS name from your ISP for your host 94.19.240.111 or
+    contact abuse@corp.mail.ru in case of error (in reply to end of DATA
+    command)
+[7m--More--[27m[K
+Part 2:
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+
+Part 3:
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+From root@bash.localdomain Sun Dec 24 15:30:33 2023
+Return-Path: <root@bash.localdomain>
+Date: Sun, 24 Dec 2023 15:30:33 +0000
+To: test@bash.ru
+Subject: Errors from lastrefresh httpd
+User-Agent: Heirloom mailx 12.5 7/5/10
+Content-Type: text/plain; charset=us-ascii
+From: root@bash.localdomain (root)
+
+[Sun Dec 24 15:15:45.308330 2023] [core:notice] [pid 3970] SELinux policy enabled; httpd running as context s
+ystem_u:system_r:httpd_t:s0
+[Sun Dec 24 15:15:45.320842 2023] [suexec:notice] [pid 3970] AH01232: suEXEC mechanism enabled (wrapper: /usr
+/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set t
+he 'ServerName' directive globally to suppress this message
+[Sun Dec 24 15:15:45.332622 2023] [lbmethod_heartbeat:notice] [pid 3970] AH02282: No slotmem from mod_heartmo
+nitor
+[Sun Dec 24 15:15:45.340436 2023] [mpm_prefork:notice] [pid 3970] AH00163: Apache/2.4.6 (CentOS) configured -
+- resuming normal operations
+[Sun Dec 24 15:15:45.340494 2023] [core:notice] [pid 3970] AH00094: Command line: '/usr/sbin/httpd -D FOREGRO
+UND'
+[Sun Dec 24 15:18:59.258081 2023] [autoindex:error] [pid 3972] [client 127.0.0.1:49068] AH01276: Cannot serve
+ directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory inde
+x forbidden by Options directive
+[Sun Dec 24 15:18:59.275803 2023] [autoindex:error] [pid 3973] [client 127.0.0.1:49070] AH01276: Cannot serve
+[7m--More--[27m directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory inde
+x forbidden by Options directive
+[Sun Dec 24 15:18:59.288437 2023] [autoindex:error] [pid 3974] [client 127.0.0.1:49072] AH01276: Cannot serve
+ directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory inde
+x forbidden by Options directive
+[Sun Dec 24 15:18:59.304903 2023] [autoindex:error] [pid 3975] [client 127.0.0.1:49074] AH01276: Cannot serve
+ directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory inde
+x forbidden by Options directive
+[Sun Dec 24 15:18:59.317306 2023] [autoindex:error] [pid 3971] [client 127.0.0.1:49076] AH01276: Cannot serve
+ directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory inde
+x forbidden by Options directive
+[Sun Dec 24 15:18:59.322364 2023] [autoindex:error] [pid 3972] [client 127.0.0.1:49078] AH01276: Cannot serve
+ directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory inde
+x forbidden by Options directive
+[Sun Dec 24 15:18:59.335618 2023] [autoindex:error] [pid 3973] [client 127.0.0.1:49080] AH01276: Cannot serve
+ directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory inde
+x forbidden by Options directive
+[Sun Dec 24 15:18:59.357118 2023] [autoindex:error] [pid 3974] [client 127.0.0.1:49082] AH01276: Cannot serve
+ directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory inde
+x forbidden by Options directive
+[Sun Dec 24 15:18:59.374679 2023] [autoindex:error] [pid 3975] [client 127.0.0.1:49084] AH01276: Cannot serve
+ directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory inde
+x forbidden by Options directive
+[Sun Dec 24 15:18:59.384132 2023] [autoindex:error] [pid 3971] [client 127.0.0.1:49086] AH01276: Cannot serve
+ directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory inde
+x forbidden by Options directive
+[Sun Dec 24 15:18:59.410657 2023] [autoindex:error] [pid 3972] [client 127.0.0.1:49088] AH01276: Cannot serve
+ directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory inde
+x forbidden by Options directive
+[Sun Dec 24 15:18:59.430925 2023] [autoindex:error] [pid 3973] [client 127.0.0.1:49090] AH01276: Cannot serve
+ directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory inde
+x forbidden by Options directive
+[Sun Dec 24 15:18:59.436747 2023] [autoindex:error] [pid 3974] [client 127.0.0.1:49092] AH01276: Cannot serve
+ directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory inde
+x forbidden by Options directive
+[7m--More--[27m[Sun Dec 24 15:18:59.446013 2023] [autoindex:error] [pid 3975] [client 127.0.0.1:49094] AH01276: Cannot serve
+ directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory inde
+x forbidden by Options directive
+[Sun Dec 24 15:18:59.455114 2023] [autoindex:error] [pid 3971] [client 127.0.0.1:49096] AH01276: Cannot serve
+ directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory inde
+x forbidden by Options directive
+[Sun Dec 24 15:19:18.995456 2023] [autoindex:error] [pid 3972] [client 192.168.56.30:35745] AH01276: Cannot s
+erve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory 
+index forbidden by Options directive
+[Sun Dec 24 15:19:19.005152 2023] [autoindex:error] [pid 3973] [client 192.168.56.30:34756] AH01276: Cannot s
+erve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory 
+index forbidden by Options directive
+[Sun Dec 24 15:19:19.009596 2023] [autoindex:error] [pid 3974] [client 192.168.56.30:50422] AH01276: Cannot s
+erve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory 
+index forbidden by Options directive
+[Sun Dec 24 15:19:19.015592 2023] [autoindex:error] [pid 3975] [client 192.168.56.30:41605] AH01276: Cannot s
+erve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory 
+index forbidden by Options directive
+[Sun Dec 24 15:19:19.020144 2023] [autoindex:error] [pid 3971] [client 192.168.56.30:51866] AH01276: Cannot s
+erve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory 
+index forbidden by Options directive
+[Sun Dec 24 15:19:19.024741 2023] [autoindex:error] [pid 3972] [client 192.168.56.30:54164] AH01276: Cannot s
+erve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory 
+index forbidden by Options directive
+[Sun Dec 24 15:19:19.029631 2023] [autoindex:error] [pid 3973] [client 192.168.56.30:33613] AH01276: Cannot s
+erve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory 
+index forbidden by Options directive
+[Sun Dec 24 15:19:19.035974 2023] [autoindex:error] [pid 3974] [client 192.168.56.30:57512] AH01276: Cannot s
+erve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory 
+index forbidden by Options directive
+[Sun Dec 24 15:19:19.041105 2023] [autoindex:error] [pid 3975] [client 192.168.56.30:60326] AH01276: Cannot s
+erve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory 
+index forbidden by Options directive
+[Sun Dec 24 15:19:19.048902 2023] [autoindex:error] [pid 3971] [client 192.168.56.30:45334] AH01276: Cannot s
+erve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory 
+[7m--More--[27mindex forbidden by Options directive
+&  n
+Message  4:
+From MAILER-DAEMON  Sun Dec 24 15:30:35 2023
+Return-Path: <>
+X-Original-To: root@bash.localdomain
+Delivered-To: root@bash.localdomain
+Date: Sun, 24 Dec 2023 15:30:34 +0000 (UTC)
+From: MAILER-DAEMON@bash.localdomain (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: root@bash.localdomain
+Auto-Submitted: auto-replied
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="BCD504064E23.1703431834/bash.localdomain"
+Status: RO
+
+Part 1:
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host bash.localdomain.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<test@bash.ru>: host emx.mail.ru[217.69.139.180] said: 550 Sorry, we do not
+    accept mail from hosts with dynamic IP or generic DNS PTR-records. Please
+    get a custom reverse  DNS name from your ISP for your host 94.19.240.111 or
+    contact abuse@corp.mail.ru in case of error (in reply to end of DATA
+    command)
+[7m--More--[27m[K
+Part 2:
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+
+Part 3:
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+From root@bash.localdomain Sun Dec 24 15:30:33 2023
+Return-Path: <root@bash.localdomain>
+Date: Sun, 24 Dec 2023 15:30:33 +0000
+To: test@bash.ru
+Subject: IP adress statistic from 24/Dec/2023:14:41:04 UTC to
+ 24/Dec/2023:15:30:33 UTC
+User-Agent: Heirloom mailx 12.5 7/5/10
+Content-Type: text/plain; charset=us-ascii
+From: root@bash.localdomain (root)
+
+    COUNT    IP
+     38 127.0.0.1
+     10 192.168.56.30
+& q
+Held 4 messages in /var/spool/mail/root
+]0;root@bash:~[root@bash ~]# logout
+]0;vagrant@bash:~[vagrant@bash ~]$ logout
+[?2004h]0;serjb@serjb-VirtualBox: ~/work10[01;32mserjb@serjb-VirtualBox[00m:[01;34m~/work10[00m$ [?2004l
+exit
+
+Script done on 2023-12-24 18:39:53+03:00 [COMMAND_EXIT_CODE="0"]
