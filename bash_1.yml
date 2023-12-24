@@ -15,6 +15,9 @@
   - name: install net-tools
     yum: name=net-tools state=latest
 
+  - name: install mailx
+    yum: name=mailx state=latest
+
   - name: Copy file html
     copy:
       src: ./files/my.html
@@ -39,4 +42,4 @@
     cron:
       name: Test job
       minute: "0"
-      job: "/bin/flock -x -w 0 /tmp/myexec.lock ; /bin/bash /root/go.sh > /dev/null 2>&1"
+      job: "/bin/flock -x -w 1 /tmp/myexec.lock /bin/bash /root/go.sh > /dev/null 2>&1"
